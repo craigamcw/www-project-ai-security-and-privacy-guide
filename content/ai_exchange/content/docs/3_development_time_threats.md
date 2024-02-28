@@ -184,7 +184,8 @@ Link to standards:
 - Not covered yet in ISO/IEC standards
 
 #### #POISONROBUSTMODEL
-(development-time datascience). Poison robus model: select model types that are less sensitive to poisoned training data.  
+(development-time datascience). Poison robust model: select model types that are less sensitive to poisoned training data. Models which utilize median-based optimization, Huber loss or Tukey's biweight loss have been shown to be more robust. Similarly combining multiple models or algorithms also improves robustness against training data poisoning by reducing the reliance on a single model. A model which has added noise to the model's gradients during training can help protect sensitive information in the training data from bein leaked, making it more difficult for attackers to poison the data with targeted attacks. 
+
 Links to standards:
 - Not covered yet in ISO/IEC standards
 
